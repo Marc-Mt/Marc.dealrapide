@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    align-items: center;
+    text-align: center;
+    background-color: #272727;
+    color: white;
+}
+header{
+    
+    background-color: #111;
+    color: white;
+}
+.navig{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    text-align: center;
+}
+.navbar{
+    padding-right: 45px;
+    padding-top: 10px;
+
+}
+.navbar a{
+    padding-right: 35px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    width: 20px;
+    font-weight: bold;
+    
+}
+.navbar a:hover{
+    font-size: 20px;
+    color: #8181fa;
+   
+    
+    
+}
+.abt{
+    
+    
+    margin-top: 270px;
+    
+    height: 140px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+        
+}
+h2{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.savoir{
+    
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+    margin-top: 1.5rem;
+}
+span{
+    color: #8181fa;
+    font-weight: bold;
+}
+h4{
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 25px;
+    
+}
+p{
+    font-size: 17px;
+}
+.savoir a{
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #8181fa;
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+    transition: .5s;
+}
+.savoir a:hover{
+    background-color: white;
+    color: #5050f5;
+    border: solid 1px black;
+    font-size: 17px;
+}
